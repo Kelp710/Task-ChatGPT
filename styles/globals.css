@@ -24,3 +24,60 @@ a {
     background: black;
   }
 }
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.task-form__label {
+  margin-bottom: 0.5rem;
+}
+
+.task-form__input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.task-list__item:hover{
+color: #dc3545;
+cursor: pointer;
+}
+.task-form__button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-delete-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.task-delete-form__label {
+  margin-bottom: 0.5rem;
+}
+
+.task-delete-form__input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.task-delete-form__button {
+  padding: 0.5rem 1rem;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style-type: none;
+}
